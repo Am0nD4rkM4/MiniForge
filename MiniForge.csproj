@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- Exe = programa de consola (se ejecuta en la terminal). -->
+    <OutputType>Exe</OutputType>
+    <!-- .NET 8: la versión que trae Debian 13 (dotnet-sdk-8.0). -->
+    <TargetFramework>net8.0</TargetFramework>
+    <!-- Nullable: el compilador avisa si una variable puede ser nula. -->
+    <Nullable>enable</Nullable>
+    <!-- ImplicitUsings: ya incluye los "using System;" más comunes. -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>MiniForge</AssemblyName>
+  </PropertyGroup>
+</Project>
